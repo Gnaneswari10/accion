@@ -9,7 +9,7 @@ public class VectorExample {
         vector.add(7);
         vector.add(21);
         vector.add(8);
-        System.out.println("Vector contents before sorting:");
+        System.out.println("Vectors contents before sorting:");
         System.out.println( vector);
 
         Vector<Integer> defaultVector = new Vector<>();
