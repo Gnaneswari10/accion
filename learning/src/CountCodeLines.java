@@ -3,9 +3,9 @@ import java.io.FileReader;
 
 public class CountCodeLines {
     public static void main(String[] args) {
-            String Filename = "destination File ";
-            int lines = get_countOfLines(Filename);
-            System.out.println("Number of Lines in " + Filename + " : " + lines);
+            String filename = "destination File ";
+            int lines = get_countOfLines(filename);
+            System.out.println("Number of Lines in " + filename + " : " + lines);
     }
 
         public static int get_countOfLines(String Filename) {
